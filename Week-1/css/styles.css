@@ -1,0 +1,118 @@
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0; 
+	padding: 0;
+}
+
+.selectedAlbum {
+    position: relative;
+    background-color: rgb(69, 69, 69);
+    padding: 10px;
+    padding-left: 4%;
+    width: 100vw;
+    height: 20vh;
+    z-index: -2;
+}
+
+.albumImage {
+    float: left;
+}
+
+.albumImage img {
+    height: 70%;
+    width: 70%;
+}
+
+.songsList {
+    height: 50vh;
+}
+
+h2, h5 ,.albumButton h6,.albumButton{
+    color: rgb(249, 249, 249);
+}
+
+
+nav {
+    background-color: rgb(240, 240, 240);
+    width: 3vw;
+    height: 100vh;
+    float: left;
+    text-align: center;
+    display: grid;
+}
+
+nav i {
+    height: 20vh;
+}
+
+table {
+    width: 90vw;
+    border-collapse: collapse;
+    text-align: left;
+    border: none;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+    border: none;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+    width: 100%;
+    border: none;
+}
+
+.marker {
+    width: 10vw;
+    height: 20px;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+h6 {
+    color: blue;
+    display: inline;
+}
+
+h6.songName {
+    color: rgb(249, 249, 249);
+}
+
+.activeSong {
+    background-color: rgb(67, 104, 155);
+    float: left;
+    width: 100vw;
+    height: 10vh;
+    padding: 10px;
+    display: flex;
+}
+
+.songImage img {
+    height: 95%;
+}
+.songImage {
+    width: 10%;
+}
+
+.songDetails {
+    position: relative;
+    left: -4%;
+    display: flex;
+}
+
+.songButton {
+    display: inline-block;
+    color: rgb(249, 249, 249);
+}
+
+.songButton i{
+    display: inline-block;
+    list-style: none;
+    margin: 2rem 2rem;
+    margin-left: 15rem;
+}
